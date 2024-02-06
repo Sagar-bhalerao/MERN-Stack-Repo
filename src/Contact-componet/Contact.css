@@ -1,0 +1,77 @@
+body{
+    background-color: aqua;
+}
+.Contact-info{
+    background-color: rgb(249, 249, 249);
+}
+.Contact-info-title{
+    font-family: inherit;
+    font-size: 19px;
+    font-weight: 600;
+    padding-left: 8px
+}
+.Contact-info-text{
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.material-symbols-outlined{
+    font-size: 23px;
+    position: relative;
+    top: 2px;
+    right: 4px;
+}
+.Contact-item{
+    height: 4rem;
+        width:20rem;
+        margin:2rem;
+        box-shadow:0 .5rem 1rem rgba(0,0,0,.5);
+        overflow: hidden;
+        border-radius:1px;
+        /* background-color: #f2f2f2; */
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey; 
+}
+
+.Contact-item img{
+    height: 1px;
+    width: 6px;
+    
+}
+.contact-form .container{
+    height: 24rem;
+    width: 49rem;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+   overflow: hidden;
+   margin-top: 6rem;
+}
+.form-title{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.input-name{
+    outline:none;
+    padding-left: 10px;
+    
+    
+}
+#contact-form{
+    /* display: flex;
+    justify-content: space-between  ; */
+    margin-top: 1.2rem;
+}
+.contact-form-text{
+    outline: none;
+    height: 10rem;
+    width: 38.8rem;
+    
+    /* padding-left: 8px; */
+    /* margin-left: 1rem; */
+    /* padding-left: 12px; */
+}
+.contact-form-text textarea{
+    padding-left: 16px;
+}
+.contact-from-button{
+    margin-top: 17px;
+}
